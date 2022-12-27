@@ -27,7 +27,6 @@ a{
 }
 .icon{
     display: flex;
-    gap: 38px;
     font-family: 'Roboto';
     font-weight: 400;
     font-style: normal;
@@ -35,17 +34,26 @@ a{
     line-height: 115%;
     color: #000000;
 }
+.cart1-icon1{
+    margin-right: 39px;
+}
 .icon1{
     max-width: 22px;
     width: 100%;
+    margin-right: 4px;
+}
+.cart1-icon2{
+    margin-right: 47px;
 }
 .icon2{
     max-width: 22px;
     width: 100%;
+    margin-right: 4px;
 }
 .icon3{
     max-width: 20px;
     width: 100%;
+    margin-right: 8px;
 }
 .cart1-left-text{
 
@@ -511,25 +519,33 @@ a{
 
 @media screen and (min-width:992px) and (max-width:1279px) {
     .display{
-        padding: 0 70px;
-        margin-top: 21px;
+        max-width: 725px;
+        margin: 0 auto;
+        padding-top: 22px;
+
     }
     .logo{
-        padding-bottom: 56.18px;
+        padding-bottom: 53px;
         max-width: 64.87px;
     }
     .icon{
         font-size: 12px;
-        gap: 22px;
+    }
+    .cart1-icon1 {
+        margin-right: 17px;
     }
     .icon1{
         max-width: 12.74px;
+    }
+    .cart1-icon2 {
+        margin-right: 25px;
     }
     .icon2{
         max-width: 12.74px;
     }
     .icon3{
         max-width: 11.58px;
+        margin-right: 5px;
     }
     .cart1-left-text{
         margin-top: 11.2px;
@@ -545,6 +561,7 @@ a{
         font-size: 12px;
         max-width: 250px;
         width:100% ;
+        line-height: 150%;
     }
     .cart1-right{
         margin-left: 119px;
@@ -566,7 +583,7 @@ a{
         margin-right: -6px;
     }
     .cart2-container {
-        margin-top: 39px;
+        margin-top: 35px;
         padding-left: 167px;
         margin-bottom: 99px;
     }
@@ -584,8 +601,9 @@ a{
     }
     .cart3-column2-img{
         max-width: 211.98px;
-        margin-left: 95px;
+        margin-left: 93px;
         margin-top: 13px;
+        margin-right: 0;
     }
     .cart3-column3-left{
     max-width: 134.37px;
@@ -674,7 +692,7 @@ a{
     .cart6-carts {
         gap: 21px;
         margin-left: -21px;
-        max-width: 737px
+        max-width: 754px;
     }
     .cart7-container{
         margin-top: 41px;
@@ -802,8 +820,11 @@ a{
 }
 @media screen and (min-width:320px) and (max-width:991px) {
     .display{
-        padding: 0 35px;
-        margin-top: 36px;
+    
+        max-width: 310px;
+        padding-top: 36px;
+        margin: 0 auto;
+
     }   
     .logo{
         padding-bottom: 39.2px;
@@ -811,16 +832,22 @@ a{
     }
     .icon{
         font-size: 10px;
-        gap: 15px;
+    }
+    .cart1-icon1 {
+        margin-right: 10px;
     }
     .icon1{
         max-width: 10.25px;
+    }
+    .cart1-icon2 {
+        margin-right: 18px;
     }
     .icon2{
         max-width: 10.25px;
     }
     .icon3{
         max-width: 9.32px;
+        margin-right: 4px;
     }
     .cart1 {
         flex-direction: column;
@@ -830,6 +857,7 @@ a{
     }
     .cart1-left-text1{
         font-size: 37px;
+        margin-bottom: 16px;
     }
     .cart1-left-text{
         width: 326px;
@@ -838,6 +866,7 @@ a{
         font-size: 10px;
         max-width: 213px;
         width:100% ;
+        line-height: 150%;
     }
     .cart1-right{
         margin-left: 167px;
@@ -880,6 +909,7 @@ a{
         max-width: 170.55px;
         margin-left: 65px;
         margin-top: 14px;
+        margin-right: 0;
     }
     .cart3-column3-left{
     display: none;
@@ -911,7 +941,7 @@ a{
     }
     .cart4-text{
         flex-direction: column;
-        gap: 30px;
+        gap: 33px;
     }
     .cart4-text-head{
         font-size: 26px;
@@ -922,7 +952,7 @@ a{
     }
     .cart4-text-1{
         font-size: 12px;
-        margin-bottom: 6px;
+        margin-bottom: 3px;
     }
     .cart4-text-2{
         font-size: 10px;
